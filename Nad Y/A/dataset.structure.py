@@ -7,18 +7,18 @@ Data = {
         "color" : "Black",
         "brand" : "Journee Collection",
         "review" : None,
-        "weight": None
+        "weight": "810"
         },
     "shoe2" : {
     "color": "Brown",
     "brand": "Ralph Lauren",
     "review": "Solid",
-    "weight": None
+    "weight": "238"
     },
     "shoe3" : {
         "color": "Green",
         "brand": "Skechers",
         "review": None,
-        "weight": None
+        "weight": "460"
     }
 }
