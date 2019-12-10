@@ -45,8 +45,3 @@ print('База даних' ,dataset)
 print ('Індекс товару з найбільшою наявністю кількість символів у назві якого перевищує 10 ')
 print(main(dataset))
 
-#List with keys - LWK
-#Dictionary for every key - DicList
-
-#key is for a key we check
-#
