@@ -1,0 +1,4 @@
+name -  назва взуття (type: string; 9494 unique values)
+brand - виробник взуття (type: string; other: 1357)
+sizes - розмір взуття (type: string; other: 1038)
+mershants - інформація про покупців (type: string; other: 4886)
