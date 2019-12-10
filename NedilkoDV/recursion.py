@@ -41,7 +41,7 @@ def main(dataset):
     return id
 
 
-print('База даних' ,dataset)
+print('База даних:' ,dataset)
 print ('Індекс товару з найбільшою наявністю кількість символів у назві якого перевищує 10 ')
 print(main(dataset))
 
