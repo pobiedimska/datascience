@@ -5,7 +5,6 @@ def Get_brands(dict,IDs,List_of=[],n=0):
         return List_of#returnes list of IDs
     index=IDs[n]
     a = dict.get(index)
-    print(a)
     Valuable = a.get('brand')
     kek=len_check(Valuable)
     if kek is True:
@@ -36,14 +35,14 @@ def getID(counts,IDs):
 
 def main(dataset):
     IDs=list(dataset.keys())
-    print(IDs)
     brandsID=Get_brands(dataset,IDs)
     CountsList=Counts(dataset,brandsID)
     id=getID(CountsList,brandsID)
     return id
 
 
-print(dataset)
+print('База даних' ,dataset)
+print ('Індекс товару з найбільшою наявністю кількість символів у назві якого перевищує 10 ')
 print(main(dataset))
 
 #List with keys - LWK
