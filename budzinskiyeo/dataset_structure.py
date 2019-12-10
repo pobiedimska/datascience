@@ -1,43 +1,19 @@
-data = {
-    "AVpe__JXilAPnD_xSt3F": {
-        "flavors": "000002",
-        "count": "000001",
-        "categories": {
-            "Shoes": None,
-            "Clothing": None,
-            "Women's Shoes": None,
-            "All Women's Shoes": None
+data_set = {
+    "flavors": {
+        "0fa2dbc3-39e0-4c44-ade4-d54c0f2aa151": {
+            "count": "000000002",
+            "categories": ["Shoes", "Clothing", "Women's Shoes", "All Women's Shoes"],
+            "brand": ["Ralph Lauren"]
         },
-        "brand": {
-            "Ralph Lauren": None
-        }
-    },
-
-    "AVpe_0mrilAPnD_xSqI7": {
-        "flavors": "001002",
-        "count": "000201",
-        "categories": {
-            "Shoes": None,
-            "Clothing": None,
-            "Women's Shoes": None,
-            "All Women's Shoes": None
+        "304869b3-1854-46e2-a5b4-eef55902c8cf": {
+            "count": "000000010",
+            "categories": ["Shoes", "Women's Shoes", "Clothing", "All Women's Shoes"],
+            "brand": ["Journee Collection"],
         },
-        "brand": {
-            "Ralph Lauren": None
-        }
-    },
-
-    "AVpe_0ob1cnluZ0-bnWr": {
-        "flavors": "001302",
-        "count": "000211",
-        "categories": {
-            "Shoes": None,
-            "Clothing": None,
-            "Women's Shoes": None,
-            "All Women's Shoes": None
-        },
-        "brand": {
-            "Ralph Lauren": None
+        "cd2142e6-df5c-4973-bb54-7c7e5eee4f89": {
+            "count": "000000013",
+            "categories": ["Access.", "Clothing", "Shoes", "Women's Clothing"],
+            "brand": ["Novica"],
         }
     }
 }
