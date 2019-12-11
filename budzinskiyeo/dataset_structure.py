@@ -2,7 +2,7 @@ data_set = {
     "flavors": {
         "0fa2dbc3-39e0-4c44-ade4-d54c0f2aa151": {
             "count": "000000002",
-            "categories": ["Shoes", "Clothing", "Women's Shoes", "All Women's Shoes"],
+            "categories": ["Shoes", "Women's Shoes", "All Women's Shoes"],
             "brand": ["Ralph Lauren"]
         },
         "304869b3-1854-46e2-a5b4-eef55902c8cf": {
