@@ -2,27 +2,29 @@ from DovgalEva.dataset_structure import dataset
 
 
 def insert_data(data, dataset):
-    if not isinstance(data, dict) or len(data.keys()) != 4\
-            or data.keys() != dataset[0].keys():
-        print(f'Your data or keys is/are not valid!')
+    if not isinstance(dataset, dict):
+        print('Your dataset is not valid!')
         return -1
-    if not isinstance(dataset, list):
-        print(f'Your dataset is not valid!')
+    key = list(data.keys())[0]
+    if not isinstance(data, dict) or len(data) != 1\
+            or not isinstance(key, int) or len(data[key]) != 3:
+        print('Your data is not valid!')
         return -1
+    dataset.update(data)
 
-    dataset.append(data)
 
+#   data
+my_friend = {
+    123456: {
+        'city': 'BROOKLYN',
+        'zip_code': 11222,
+        'total_episodes_non_lupa': 2570
+    }
+}
 
-# >>> test
-# my_friend = {
-#     'provider_id': 58419,
-#     'city': 'BROOKLYN',
-#     'zip_code': 11222,
-#     'total_episodes_non_lupa': 2570
-# }
-# insert_data(my_friend, dataset)
+insert_data(my_friend, dataset)
 
-# >>> check:
-# for i in range(len(dataset)):
-#     print(dataset[i].items())
+#   is insert correct?:
+for key, value in dataset.items():
+    print('id', key, value)
 

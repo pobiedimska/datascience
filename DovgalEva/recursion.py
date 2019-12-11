@@ -1,24 +1,26 @@
 from DovgalEva.dataset_structure import dataset
 
 
-def recursion(data):
-    if len(data) == 0:
+def recursion(dataset):
+    if len(dataset) == 0:
         return 0
 
     condition = 0
-    for key, value in data[0].items():
+    provider_ids = list(dataset.keys())
+
+    for key, value in dataset[provider_ids[0]].items():
         if key == 'city' and value == 'IRWINDALE':
             condition += 1
         elif key == 'total_episodes_non_lupa' and value > 1000:
             condition += 1
         else: continue
     if condition == 2:
-        print(data[0].get('provider_id'))
-        print(data[0].get('zip_code'))
-        print(data[0].get('city'))
+        print(provider_ids[0])
+        print(dataset[provider_ids[0]].get('zip_code'))
+        print(dataset[provider_ids[0]].get('city'))
 
-    data = data[1:]
-    recursion(data)
+    del dataset[provider_ids[0]]
+    recursion(dataset)
 
 
 recursion(dataset)
