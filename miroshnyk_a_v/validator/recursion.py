@@ -1,16 +1,16 @@
 from miroshnyk_a_v.validator.dataset_structure import dataset
-sum=0
 
-def get_sum(data):
+
+def get_sum(data,sum):
     yes = 0
-    for key,value in data.items():
-        print(key)
-        if key=="size":
-            if value==14:
-                yes=1
-        elif yes==1 and key=="quantities":
-            sum=+value
-        else:
-            get_sum(value)
+    if isinstance(data,dict):
+        for key,value in data.items():
+            if key=="size":
+                if 14 in value:
+                    yes=1
+            elif yes==1 and key=="quantities":
+                sum=sum+value
+            else:
+                sum=get_sum(value,sum)
     return sum
-print(get_sum(dataset))
+print("Сума кількостей взуття з розміром 14: "+str(get_sum(dataset,0)))
