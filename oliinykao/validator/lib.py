@@ -1,12 +1,12 @@
 import re
 def id_validator(id):
-    return re.match("^AVpe\_.{15}$", id)
+    return bool(re.match("^AVpe\_.{15}$", id))
 
 def brand_validator(brand):
-    return re.match("^\w*(\s\w*)*$", brand)
+    return bool(re.match("^\w*(\s\w*)*$", brand))
 
 def colors_validator(colors):
-    return re.match("^[A-Za-z]\w*(\s\w*)$", colors)
+    return bool(re.match("^\w*(.?\s\w*)*$", colors))
 
 def flavors_validator(flavors):
-    return re.match("^[A-Z]\w*(\s\w*)*$")
+    return bool(re.match("^\w*(\s\w*)*$", flavors))
