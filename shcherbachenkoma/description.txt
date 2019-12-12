@@ -1,5 +1,3 @@
-name - Щербаченко Максим 
-group - KM - 93
 provider id - The 6-digit identification number for the home health agency on the claim (int)
 agancy_name - The home health agency name, as reported in the POS file (str)
 avarage_hcc_score - Average Hierarchical Condition Category (HCC) risk score of beneficiaries. Please refer to the “Additional (float)
