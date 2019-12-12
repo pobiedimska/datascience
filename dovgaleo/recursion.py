@@ -1,4 +1,4 @@
-from DovgalEva.dataset_structure import dataset
+from dovgaleo.dataset_structure import dataset
 
 
 def recursion(dataset):

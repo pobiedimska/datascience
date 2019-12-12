@@ -1,5 +1,5 @@
-from DovgalEva.dataset_structure import dataset
-from DovgalEva.validator import lib
+from dovgaleo.dataset_structure import dataset
+from dovgaleo.validator import lib
 import re
 
 

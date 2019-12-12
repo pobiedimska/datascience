@@ -1,4 +1,4 @@
-from DovgalEva.validator import lib
+from dovgaleo.validator import lib
 
 provider_id = lib.provider_id_validator('123456')
 city = lib.city_validator('123456')
