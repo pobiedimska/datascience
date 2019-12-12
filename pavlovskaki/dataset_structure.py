@@ -1,7 +1,11 @@
+"""
+    Dataset is based on individual task.
+"""
+
 dataset = {
     "337290": {
         "agency_name": "AMERICARE CERTIFIED SPECIAL SERVICES, INC CHHA",
-        "street_adress": "5923 STRICKLAND AVENUE",
+        "street_adress": "59234 STRICKLAND AVENUE",
         "city": "BROOKLYN"
     },
     "58217": {
