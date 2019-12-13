@@ -1,41 +1,29 @@
 dataset = {
     "brand":{
-        "Novica":{
-            "name":{
-                "Handcrafted Alpaca Blend 'Purple Charisma' Sweater (Peru)"
-            },
+        "Marc Fisher":{
+            "name": "Marc Fisher Fawna Women Cap Toe Leather Oxford",
             "sizes":{
-                34,35,36
+                8.5,7,9.5,7.5,8,
             },
-            "merchants":{
-                "handcrafted alpaca blend purple charisma sweater peru by novica"
-            }
-
-        },
-        "Pedi Couture":{
-            "name": {
-                "Pedi Couture Women's Blue Snake Pedicure Spa Toe Separator Sandal Flip Flops (m)"
-            },
-            "sizes": {
-                38, 39, 41
-            },
-            "merchants": {
-                "Big Deal Hunter"
-            }
-
-        },
-        "ANNE KLEIN SPOR":{
-            "name": {
-                "Anne Klein Sport Perfered Women Us 9.5 Nude Wedge Heel"
-            },
-            "sizes": {
-                40, 41, 42
-            },
-            "merchants": {
+            "merchants":
                 "Apparelsave"
-            }
+        },
 
+        "Caparros":{
+            "name":
+                "Caparros Karissa Open Toe Canvas Sandals",
+            "sizes":{
+                8.5, 7.5, 8
+            },
+            "merchants": "Apparelsave"
+        },
+
+        "DbDk Fashion":{
+            "name": "Dbdk Fashion Meira-4 Women Open Toe Synthetic Wedge Sandall",
+            "sizes": {
+                5.5,7,6,6.5,7.5,8
+            },
+            "merchants": "Apparelsave"
         }
     }
-
 }
