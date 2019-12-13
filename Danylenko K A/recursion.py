@@ -6,12 +6,14 @@ city_info = {
         'cen_year': 2018,
     },
 
+
     'brooklyn': {
         'vert_wall': False,
         'wire_2nd': 1,
         'tree_loc': dict(),
         'cen_year': 2006,
     },
+
 
     'jercy': {
         'wire_2nd' : 222,
