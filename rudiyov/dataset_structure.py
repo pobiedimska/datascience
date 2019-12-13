@@ -1,5 +1,4 @@
 dataset = {
-    'brand': {
         'Gucci': {
             'prices.count': 200.3,
             'quantities': {"dateSeen": ["2017-03-25T09:19:30.366Z", "2017-02-12T10:59:33.004Z"], "sourceURLs":
@@ -28,5 +27,4 @@ dataset = {
                                    "-White/8858557/product.html", "value": "16086132"}
 
         }
-    }
 }
