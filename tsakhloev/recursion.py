@@ -1,5 +1,3 @@
-from dataset_structure import dataset
-
 def recursion( dataset ):
 
 	if not dataset:
@@ -17,5 +15,3 @@ def recursion( dataset ):
 	del dataset[key]
 
 	recursion( dataset )
-
-recursion( dataset )
