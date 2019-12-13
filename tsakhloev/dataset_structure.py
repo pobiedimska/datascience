@@ -2,9 +2,9 @@ dataset = {
 
     4016632: {
 
-        'cleaning-fee': '$25.00',
+        'cleaning-fee': '$45.00',
         'calendar-updated': 'yesterday',
-        'extra-people': '$0.00'
+        'extra-people': '$5.00'
 
     },
 
@@ -12,7 +12,7 @@ dataset = {
 
         'cleaning-fee': None,
         'calendar-updated': '6 months ago',
-        'extra-people': '$0.00'
+        'extra-people': '$110.00'
 
     },
 
