@@ -1,21 +1,16 @@
-dataset = {'status':[
-                        'Good'
-                        ,'Good'
-                        ,'Excellent'
-                    ]
-           ,'inf_shoes':[
-                         'No'
-                         ,'No'
-                         ,'No'
-                        ]
-           ,'zipcode':[
-                         10471
-                         ,11432
-                         ,10007
-                      ]
-           ,'trunk_dmg':[
-                         'None'
-                         ,'None'
-                         ,'None'
-                      ]
-          }
+dataset = {1 :{
+                        'status': {'old'}
+                        ,'inf_shoes': {'No'}
+                        ,'trunk_dmg':{'None'}
+                      }
+           ,2:{
+                         'status': {'old'}
+                        ,'inf_shoes': {'No'}
+                        ,'trunk_dmg':{'None'}
+                       }
+
+
+    }
+
+
+
