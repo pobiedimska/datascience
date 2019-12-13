@@ -3,20 +3,20 @@
 #review - string
 #weight - int
 Data = {
-    "shoe1" : {
-        "color" : "Black",
+    "item1" : {
+        "color" : "Red",
         "brand" : "Journee Collection",
         "review" : None,
         "weight": "810"
         },
-    "shoe2" : {
+    "item2" : {
     "color": "Brown",
     "brand": "Ralph Lauren",
     "review": "Solid",
     "weight": "238"
     },
-    "shoe3" : {
-        "color": "Green",
+    "item3" : {
+        "color": "Red",
         "brand": "Skechers",
         "review": None,
         "weight": "460"
