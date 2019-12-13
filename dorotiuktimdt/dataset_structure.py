@@ -4,7 +4,7 @@ dataset = {
                         'manufacturer': 'VietnamFabric',
                         'brand': 'ADIDAS'},
             '7.18483E+11':{
-                         'keys': 'basketballshoes, 847484756385/ airforce1, 847484756154',
+                         'keys': 'c',
                          'manufacturer': 'BuffaloTricko',
                          'brand': 'NIKE'},
             '8.56739E+11': {
