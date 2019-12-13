@@ -6,6 +6,3 @@ def recursion(keynum):
         print('---------------------------')
     if keynum<3:
         recursion(keynum+1)
-
-
-
