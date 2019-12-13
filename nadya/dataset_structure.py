@@ -7,7 +7,7 @@ Data = {
         "color" : "Red",
         "brand" : "Journee Collection",
         "review" : None,
-        "weight": "305"
+        "weight": "900"
         },
     "item2" : {
     "color": "Brown",
