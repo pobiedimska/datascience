@@ -1,6 +1,8 @@
 dataset={'AVpe__eOilAPnD_xSt-H1':{
                                 'count': 15,
-                                'key': 'handmade',
+                                'key': {'handmade',
+                                        'blue4',
+                                        'comfy'},
                                 'brand':'Shoes4youth1'},
 
         'AVpe__eOilAPnD_xSt-H2':{
@@ -14,6 +16,7 @@ dataset={'AVpe__eOilAPnD_xSt-H1':{
         'AVpe__eOilAPnD_xSt-H3':{
                                 'count': 95,
                                 'key': {'handmade',
+                                        'purple',
                                          'comfy' },
                                 'brand':'Novica'
 
