@@ -1,0 +1,21 @@
+dataset = {'status':[
+                        'Good'
+                        ,'Good'
+                        ,'Excellent'
+                    ]
+           ,'inf_shoes':[
+                         'No'
+                         ,'No'
+                         ,'No'
+                        ]
+           ,'zipcode':[
+                         10471
+                         ,11432
+                         ,10007
+                      ]
+           ,'trunk_dmg':[
+                         'None'
+                         ,'None'
+                         ,'None'
+                      ]
+          }
