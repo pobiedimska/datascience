@@ -1,0 +1,26 @@
+dataset = {
+            'cen_year':
+                        [
+                        2005,
+                        2006,
+                        2006
+                        ]
+            ,'vert_other':
+                        [
+                            'no',
+                            'no',
+                            'no'
+                        ]
+            ,'boroname':
+                        [
+                        2,
+                        4,
+                        1
+                        ]
+            ,'borocode':
+                        [
+                        'Bronx',
+                        'Queens',
+                        'Manhattan'
+                        ]
+            }
