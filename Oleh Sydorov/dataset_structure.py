@@ -1,7 +1,7 @@
 dataset_axample = {
                     'LONDON PLANETREE':{
-                                        'spc_latin': 'PLATANUS ACERIFOLIA'
-                                        ,'status': 'Good'
-                                        ,'pit type': 'Lawn'
+                                        'Spc_latin': 'PLATANUS ACERIFOLIA'
+                                        ,'Status': 'Good'
+                                        ,'Pit type': 'Lawn'
                                                             }
                     }
