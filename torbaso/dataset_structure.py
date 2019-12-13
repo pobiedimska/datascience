@@ -1,21 +1,23 @@
 dataset = {
-    'Stylish Queen Anne Apartment':{
+    1:{
+        'name':'Stylish Queen Anne Apartment',
         'country':'United States',
         'bed-type':'Real Bed',
-        'price':'$85.00'
+        'price':85.00
     },
-    'Bright & Airy Queen Anne Apartment':{
+    2:{
+        'name':'Bright & Airy Queen Anne Apartment',
         'country':'United States',
         'bed-type':'Real Bed',
-        'price':'$150.00'
+        'price':150.00
     },
-    'New Modern House - Amazing water view':{
+    3:{
+        'name':'New Modern House - Amazing water view',
         'country':'United States',
         'bed-type':'Real Bed',
-        'price':'$975.00'
+        'price':975.00
     }
 }
-
 
 
 
