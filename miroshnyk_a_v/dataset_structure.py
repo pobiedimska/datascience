@@ -5,9 +5,9 @@ dataset={"name":{
          'reviews':None},
     'Marc Fisher Fawna Women Cap Toe Leather Oxford':{
          'sizes':["4","10 X","9"],
-         'quantities':98,
+         'quantities':10,
          'reviews':None},
     'Inc International Concepts Britanii Pointed Toe Suede Heels':{
-         'sizes':["4","8"],
-         'quantities':9,
+         'sizes':["4"],
+         'quantities':1,
          'reviews':None}}}
