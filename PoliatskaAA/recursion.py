@@ -10,4 +10,4 @@ def recursion(data,count = [0],get_last_key=False,last_key=None,req=0):
     if last_key == key:
         result = int(count[0])
         count[0]=0
-    return result
+        return result
