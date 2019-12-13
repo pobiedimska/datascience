@@ -2,7 +2,7 @@ import re
 
 def name_validator():
     name = input("Введіть назву:")
-    if bool(re.match("^(([A-Z]{1}([a-z]+)?((\')?[a-z]+)?(\,)?(\s)?)+)?$", name)):
+    if bool(re.match("^(([A-Z]{1}([a-z]*)((\')?[a-z]*)(\,)?(\s)?)*)$", name)):
         pass
     else:
         print("Назва введена неправильно!")
@@ -12,7 +12,7 @@ def name_validator():
 
 def brand_validator():
     brand = input("Введіть бренд:")
-    if bool(re.match("^(([A-Z]+([a-z]+)?((\')?[a-z]+)?(\s)?(\&)?(\s)?)+)?$", brand)):
+    if bool(re.match("^(([A-Z]+([a-z]*)((\')?[a-z]*)(\s)?(\&)?(\s)?)*)$", brand)):
         pass
     else:
         print("Бренд введена неправильно!")
@@ -22,7 +22,7 @@ def brand_validator():
 
 def sizes_validator():
     sizes = input("Введіть розміри взуття:")
-    if bool(re.match("^([0-9]+((\.)?[0-9]+)?(\,)?(\s)?)+$", sizes)):
+    if bool(re.match("^([0-9]+((\.)?[0-9]*)(\,)?(\s)?)+$", sizes)):
         pass
     else:
         print("Розміри введено неправильно!")
@@ -32,7 +32,7 @@ def sizes_validator():
 
 def merchants_validator():
     merchants = input("Покупець:")
-    if bool(re.match("^(([A-Z]+([a-z]+)?((\')?([a-z]+)?(\.)?[a-z]+)?(\s)?)+)?$", merchants)):
+    if bool(re.match("^(([A-Z]+([a-z]*)((\')?([a-z]*)(\.)?[a-z]*)(\s)?)*)$", merchants)):
         pass
     else:
         print("Інформація  введена неправильно!")
