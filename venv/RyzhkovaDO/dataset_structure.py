@@ -17,6 +17,4 @@ dataset = {
                 ,'zipcode': "10007"
                 ,'borocode': "1"
                 }
-
-
            }
