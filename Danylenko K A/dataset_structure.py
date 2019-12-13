@@ -12,6 +12,4 @@ city_info = {
         'tree_loc': dict(),
         'cen_year': 2006,
     },
-
-
 }
