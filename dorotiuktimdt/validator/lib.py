@@ -13,12 +13,32 @@ def ean_validator():
 
 
 def keys_validator():
-    keys = input('Введіть унікальні ключові слова, вирази та відповідні їм коди: ')
-    if bool(re.match('^(([a-z]+(\,){1}(\s){1}[0-9]{12}){1}((\s){1}(\/){1}(\s){1}[a-z]+(\,){1}(\s){1}[0-9]{12})*)$', keys)):
+    key_text_1 = input('Введіть ключовий вираз №1: ')
+    if bool(re.match('^([a-z]+)$', key_text_1)):
         pass
     else:
         print('Error')
         return keys_validator()
+    key_text_2 = input('Введіть ключовий вираз №2: ')
+    if bool(re.match('^([a-z]+)$', key_text_2)):
+        pass
+    else:
+        print('Error')
+        return keys_validator()
+    key_num_1 = input('Введіть код для ключового виразу №1: ')
+    if bool(re.match('^([0-9]{12})$', key_num_1)):
+        pass
+    else:
+        print('Error')
+        return keys_validator()
+    key_num_2 = input('Введіть код для ключового виразу №2: ')
+    if bool(re.match('^([0-9]{12})$', key_num_2)):
+        pass
+    else:
+        print('Error')
+        return keys_validator()
+
+    keys = {key_text_1: key_num_1, key_text_2: key_num_2}
     return keys
 
 
