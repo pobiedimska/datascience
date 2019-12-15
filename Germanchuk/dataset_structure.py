@@ -13,5 +13,5 @@ dataset = {
         "country_code": "US",
         "bed_type": "Real Bed",
         "price": 975.00
-    },
+    }}
 
