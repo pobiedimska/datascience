@@ -10,9 +10,13 @@ def count_validator():
     return count
 
 
-def name_validator(name):
-    while not re.match('^[A-Z]{1}[a-z]*$',name) :
-        name = input('enter correct name \n')
+def name_validator():
+    name = input("Введіть назву:")
+    if bool(re.match("^(([A-Z]{1}([a-z]*)((\')?[a-z]*)(\,)?(\s)?)*)$", name)):
+        pass
+    else:
+        print("Назва введена неправильно!")
+        return name_validator()
     return name
 
 
