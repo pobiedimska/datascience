@@ -1,4 +1,4 @@
-dataset={"name":{
+dataset={
     'Handcrafted Alpaca Blend \'Purple Charisma\' Sweater (Peru)':{
          'sizes':["7","10M"],
          'quantities':99,
@@ -10,4 +10,4 @@ dataset={"name":{
     'Inc International Concepts Britanii Pointed Toe Suede Heels':{
          'sizes':["4"],
          'quantities':1,
-         'reviews':None}}}
+         'reviews':None}}
