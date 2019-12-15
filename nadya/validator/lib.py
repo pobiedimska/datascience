@@ -20,6 +20,6 @@ def review_validator(prompt):
 
 def weight_validator(prompt):
     weight = input(prompt)
-    while not bool(re.match('^\d{1,}\s{0,}$', weight)):
+    while not bool(re.match("^(\d{1,}\s{0,}.)*$", weight)):
         weight = input(prompt)
     return weight

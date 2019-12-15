@@ -1,11 +1,11 @@
 from nadya.dataset_structure import dataset
 
 dataset.update({
-    "AVpe_aXVilAPnD_xSg7n":{
-        "color" : "Pink",
+    "Journee Collection":{
+        "color" : ("Pink"),
         "brand" : "Journee Collection",
-        "review" : "Nice and comfortable",
-        "weight": "660"
+        "review" : ["Nice and comfortable","Good"],
+        "weight": ["660"]
                         }
 })
 

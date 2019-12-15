@@ -1,4 +1,4 @@
-color - a color of the item
+color - a list of colors of items
 brand - a firm, which made an item
-review - a short description of the item
-weight - the weight of the item(in grams)
+review - a list of short descriptions of the items
+weight - a list of weight of the items(in grams)
