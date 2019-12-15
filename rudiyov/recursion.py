@@ -31,9 +31,9 @@ def search_max_price(quantities=__quantities, prices=__prices):
     :return: float , max of prices witch meet the criteria
     """
     price_array = list()
-    diction = dict(zip(quantities, prices))
+    diction = dict(zip(prices, quantities))
     for key, items in diction.items():
-        if len(key["sourceURLs"]) > 10:
-            price_array.append(items)
+        if len(items["sourceURLs"]) > 10:
+            price_array.append(key)
     print(max(price_array))
     return max(price_array)
