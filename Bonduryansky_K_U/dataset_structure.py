@@ -1,7 +1,8 @@
-import pandas as pd
-info = {'cen-year':['2005', '2006', '2006'],
-        'status':['Good', 'Good', 'Excellent'],
-        'wire-prime':['No', 'No', 'No'],
-        'zip-city':['Bronx', 'Jamaica', 'New York']
-        }
-tree_info = pd.DataFrame(info, index = ['1', '2', '3'])
+tree_info = {'Bronx':{'2005':
+                          {'status':'Good', 'wire-prime':'No'}},
+             'Jamaica':{'2006':
+                            {'status':'Good', 'wire-prime':'No'}},
+             'New York':{'2006':
+                             {'status':'Good', 'wire-prime':'No'}}
+            }
+print(tree_info.get('Bronx'))
