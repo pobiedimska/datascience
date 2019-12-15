@@ -39,8 +39,7 @@ def sizes_validator(prompt):
     else:
         return numbers
 def update(data):
-    for val in data.values():
-        val.update({
+    data.update({
         name_validator("Введіть поле name: "):{
              'sizes':sizes_validator("Введіть поле sizes числами через пробіл: "),
              'quantities':quantities_validator("Введіть поле quantities: "),
