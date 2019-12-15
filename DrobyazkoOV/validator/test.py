@@ -4,7 +4,7 @@ if name_validator("Boots"):
     print("correct")
 else: print("not correct")
 
-if id_validator("snsdkl3e32fj"):
+if id_validator("snsdk"):
     print("correct")
 else: print("not correct")
 
