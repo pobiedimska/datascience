@@ -1,3 +1,4 @@
+from pobiedimskasi.dataset_structure import dataset
 
 def recursion(dataset):
     for provider_id in dataset.keys():
@@ -8,3 +9,5 @@ def recursion(dataset):
         condition2 = percent_of_beneficiaries_with_hyperlipidemia > 30
         if condition1 or condition2:
             print('Provider ID: '+str(provider_id +'\nState: ' + state+'\n'))
+            
+recursion(dataset)
