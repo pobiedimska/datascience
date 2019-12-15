@@ -7,7 +7,7 @@ def flavors_validator(data):
 
 
 def count_validator(data):
-    pattern = "^[0-9]{9}$"
+    pattern = "^[0-9]{1,}$"
     return match(pattern, data)
 
 
