@@ -18,4 +18,3 @@ dataset = {
         'name':'Soft Comfort Women\'s Everyday Gel Insoles 2-pair'
         }
           }
-print(dataset)
