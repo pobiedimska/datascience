@@ -1,5 +1,4 @@
 from hudymvm.dataset_structure import dataset
-
 keys = list(dataset.keys())
 length = len(keys)
 
@@ -9,19 +8,23 @@ def recursion(data, namecount, categoriescount, num):
         return 'success'
 
     id = keys[num]
+    namelist = data[id]['name'].split()
 
-    if data[id]['categories'] == '' and namecount > 3:
-        print(categoriescount)
+    if len(namelist)<=3:
+        print('Name <=3')
+        return recursion(data, 0,0,num + 1)
+
+    if data[id]['categories'] == []:
+        print(id,'---',"Count of categories: ",categoriescount)
         return recursion(data, 0, 0, num + 1)
 
-    if data[id]['name'] == '':
-        categorieslist = data[id]['categories'].split(',')
-        data[id]['categories'] = ','.join(categorieslist[1:])
-        return recursion(data, namecount, categoriescount + 1, num)
+    else:
+        categorieslist = data[id]['categories']
+        categoriescount+=1
+        data[id]['categories'] = categorieslist[1:]
 
-    namelist = data[id]['name'].split()
-    data[id]['name'] = ' '.join(namelist[1:])
-    return recursion(data, namecount + 1, categoriescount, num)
+        return recursion(data, namecount, categoriescount, num)
+
+    return recursion(data, namecount, categoriescount, num + 1)
 
 print(recursion(dataset, 0, 0, 0))
-
