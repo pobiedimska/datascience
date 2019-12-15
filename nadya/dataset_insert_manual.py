@@ -1,7 +1,7 @@
-from nadya.dataset_structure import Data
+from nadya.dataset_structure import dataset
 
-Data.update({
-    "item4":{
+dataset.update({
+    "AVpe_aXVilAPnD_xSg7n":{
         "color" : "Pink",
         "brand" : "Journee Collection",
         "review" : "Nice and comfortable",
@@ -9,4 +9,4 @@ Data.update({
                         }
 })
 
-print(Data)
+print(dataset)

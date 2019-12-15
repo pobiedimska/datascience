@@ -1,5 +1,5 @@
-from nadya.dataset_structure import Data
-counting=list(Data.items())
+from nadya.dataset_structure import dataset
+counting=list(dataset.items())
 length=len(counting)
 first_index=0
 second_index=1

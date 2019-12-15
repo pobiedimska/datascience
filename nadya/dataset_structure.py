@@ -2,20 +2,20 @@
 #brand - string
 #review - string
 #weight - int
-Data = {
-    "item1" : {
+dataset = {
+    "AVpe_8Hg1cnluZ0-bp_0" : {
         "color" : "Red",
-        "brand" : "Journee Collection",
+        "brand" : "Born",
         "review" : None,
         "weight": "900"
         },
-    "item2" : {
-    "color": "Brown",
+    "AVpe_19KilAPnD_xSqnY" : {
+    "color": "Silver",
     "brand": "Ralph Lauren",
     "review": "Solid",
     "weight": "238"
     },
-    "item3" : {
+    "AVpe_Auy1cnluZ0-bVf3" : {
         "color": "Red",
         "brand": "Skechers",
         "review": None,

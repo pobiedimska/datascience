@@ -1,4 +1,3 @@
-item - a product
 color - a color of the item
 brand - a firm, which made an item
 review - a short description of the item
