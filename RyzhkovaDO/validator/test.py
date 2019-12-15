@@ -8,4 +8,3 @@ vert_wall = vert_wall_validator(re_vert_wall, "Введіть vert_wall (Yes/No)
 zipcode = zipcode_validator(re_zipcode, "Введіть zipcode (5 цифр): ")
 borocode = borocode_validator(re_borocode, "Введіть borocode (Одна цифра з проміжку [1-5]): ")
 
-#objectid_validator, vert_wall_validator, zipcode_validator, borocode_validator
