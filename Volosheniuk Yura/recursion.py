@@ -1,4 +1,4 @@
-from BD import data_set
+from dataset_structure import data_set
 
 
 def print_data(data_set, counter=0):
