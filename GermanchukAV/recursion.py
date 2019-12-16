@@ -1,3 +1,4 @@
+from GermanchukAV.dataset_structure import dataset
 
 def recursion(dataset):
     if len(dataset) == 0:
@@ -21,7 +22,7 @@ def recursion(dataset):
     del dataset[keys[0]]
     print(dataset)
     recursion(dataset)
-
+recursion(dataset)
 
 
 
