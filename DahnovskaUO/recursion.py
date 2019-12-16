@@ -13,7 +13,7 @@ def recursion(dataset):
         for key, value in dataset.items():
             if isinstance(value, dict):
                 if recursion(value):
-                    print('ID: '+ str(key) +'\nStreet: ' + value['street'] + '\nCity: ' + value['city'] + '\nPrice: ' + value['price'] + '\n')
+                    print('IStreet: ' + str(key) + '\nCity: ' + value['city'] + '\nPrice: ' + value['price'] + '\n')
             else:
                 prices = price_condition(key, value)
                 if prices:

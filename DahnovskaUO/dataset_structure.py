@@ -1,23 +1,20 @@
 dataset = {
-    '241032':
+    'Gilman Dr W, Seattle, WA 98119, United States':
         {
         'country_code':'US',
         'city':'Seattle',
-        'street':'Gilman Dr W, Seattle, WA 98119, United States',
         'price':'85.00'
         },
-    '953595':
+    '7th Avenue West, Seattle, WA 98119, United States':
         {
         'country_code':'US',
         'city':'Seattle',
-        'street':'7th Avenue West, Seattle, WA 98119, United States',
         'price':'150.00'
         },
-    '3308979':
+    'West Lee Street, Seattle, WA 98119, United States':
         {
         'country_code':'US',
         'city':'Seattle',
-        'street':'West Lee Street, Seattle, WA 98119, United States',
         'price':'975.00'
         }
     }
