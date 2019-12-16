@@ -7,3 +7,4 @@ episode in the calendar year. Beneficiaries may receive multiple home health epi
 but are only counted once in this field.
 
 average_number_of_total_visits_per_episode_non_lupa - Average number of total visits provided by the HHA during a non-LUPA episode.
+
