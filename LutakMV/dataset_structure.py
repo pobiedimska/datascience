@@ -1,16 +1,16 @@
 dt = {
        0: {
            'PLATANUS ACERIFOLIA':{
-                                  'inf_conopy': 'No',
+                                  'inf_canopy': 'Yes',
                                   'zipcode': 10471
                                  },
            'ULMUS SPECIES':{
-                             'inf_conopy': 'No',
+                             'inf_canopy': 'No',
                              'zipcode': 11432
                            },
            'GREDITSIA TRIACANTHOS':{
-                                     'inf_conopy': 'No',
+                                     'inf_canopy': 'No',
                                      'zipcode': 10007
                                    }
-        }
-       } 
+           }
+       }
