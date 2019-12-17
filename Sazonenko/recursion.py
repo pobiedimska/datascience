@@ -11,8 +11,6 @@ def recursion (keys, counter = 0):
     print(counter)
     return recursion(keys[1:], counter)
 
-# print(recursion(keys))
-
 
 if __name__ == '__main__':
     recursion(keys)
