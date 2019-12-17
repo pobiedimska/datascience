@@ -13,3 +13,10 @@ dataset = {956883:
                     {1:
                          {"TV","Cable TV","Wireless Internet","Kitchen","Free Parking on Premises","Indoor Fireplace","Heating",
                           "Smoke Detector","Carbon Monoxide Detector","Fire Extinguisher","Essentials","Shampoo"}}}}
+
+host_id = int(input("Host ID: "))
+room_type = input("Type of apartment: ")
+guests_included = int(input("Number of people in each room: "))
+amenities = set(input("Amenities: ").split(', '))
+
+dataset.update(dict([(host_id, dict([(room_type, dict([(guests_included, amenities)]))]))]))
