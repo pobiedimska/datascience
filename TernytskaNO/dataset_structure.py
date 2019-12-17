@@ -4,7 +4,7 @@ tree_census = {
         ,"cen-year": 2005
         ,"wire-prime": "No"
                            },
-    "Ulmus species":       {
+    "Ulmus Species":       {
         "status": "good"
         ,"cen-year": 2006
         ,"wire-prime": "No"
