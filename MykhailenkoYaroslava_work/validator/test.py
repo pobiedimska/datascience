@@ -1,5 +1,4 @@
 import MykhailenkoYaroslava_work.validator.lib
-# import MykhailenkoYaroslava_work.dataset_insert_manual
 print(MykhailenkoYaroslava_work.validator.lib.status_validator('good'))
 print(MykhailenkoYaroslava_work.validator.lib.status_validator('notgood'))
 print(MykhailenkoYaroslava_work.validator.lib.horz_plant_validator('yes'))
