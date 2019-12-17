@@ -12,6 +12,8 @@ def canopy_counter(dataset, can_status):
         return user_sum + canopy_counter(ds_copy, can_status)
     else:
         return 0
+
+
 temp_ds = mds.Trees_Set
 result = canopy_counter(temp_ds["Bronx"], "Yes")
 print(result)
