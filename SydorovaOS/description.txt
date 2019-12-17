@@ -1,0 +1,4 @@
+status : стан дерев (type : dictionary)
+inf_shoes : наявність взуття (type : dictionary)
+zipcode : поштовий індекс (type : dictionary)
+trunk_dmg : опис пошкоджень дерев (type : dictionary)
