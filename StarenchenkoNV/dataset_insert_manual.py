@@ -1,6 +1,5 @@
 from dataset_structure import dataset
 
-n = input("enter new key: ")
 
 
 def add_row(dataset,number_of_region,wire_prime_presence, info_about_shoes, sidw_crack_presence):
@@ -17,4 +16,4 @@ def add_row(dataset,number_of_region,wire_prime_presence, info_about_shoes, sidw
     print(dataset)
 
 
-add_row(dataset, n, "No", "No", "No")
+add_row(dataset, "1", "No", "No", "No")
