@@ -13,7 +13,6 @@ dataset = {1 :{
                         ,'inf_shoes': {'No'}
                         ,'trunk_dmg':{'None'}
                        }
-
     }
 
 
