@@ -1,14 +1,22 @@
 import re
 def cb_num_validator(cb_num):
     while bool(re.match(r"^\d+$",cb_num)):
-        return cb_num
+        return True
+    else:
+        return False
 
 def zipcode_validator(zipcode):
     while bool(re.match(r"^\d+$", zipcode)):
-        return zipcode
+        return True
+    else:
+        return False
 def wire_2nd_validator(wire_2nd):
     while bool(re.match(r"(False)|(True)", wire_2nd)):
-        return wire_2nd
+        return True
+    else:
+        return False
 def spc_latin_validator(spc_latin):
     while bool(re.match(r"[A-Z]+(\s)[A-Z]+", spc_latin)):
-        return spc_latin
+        return True
+    else:
+        return False
