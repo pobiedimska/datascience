@@ -1,7 +1,7 @@
 dt = {
        0: {
            'PLATANUS ACERIFOLIA':{
-                                  'inf_canopy': 'Yes',
+                                  'inf_canopy': 'No',
                                   'zipcode': 10471
                                  },
            'ULMUS SPECIES':{
