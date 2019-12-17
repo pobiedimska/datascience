@@ -1,22 +1,22 @@
 dataset = {
     "AVpe_0ob1cnluZ0-bnWr":{
-        "count":["null"],
+        "count": None,
         "dimension": {
             "height":"6.0 in x",
             "length":"6.0 in x",
             "width":"1.0 in"},
-        "flavors": ["null"]},
+        "flavors": None},
     "AVpe__eOilAPnD_xSt-H":{
-        "count":["null"],
-        "dimension":["null"],
-        "flavors":["null"]},
+        "count": None,
+        "dimension": None,
+        "flavors": None},
     "AVpe_54gilAPnD_xSr-B":{
-        "count":["null"],
+        "count": None,
         "dimension": {
             "height":"6.0 in x",
             "length":"6.0 in x",
             "width":"1.0 in"},
-        "flavors":["null"]}
+        "flavors": None}
 }
 
 
