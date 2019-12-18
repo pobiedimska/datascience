@@ -1,13 +1,11 @@
-def shows_parameters(dataset):
+from dataset_structure import dataset
 
-  if not len(dataset):
-    return False
-  else:
-    if dataset[0]['beds']>2 or dataset[0]['price']>100:
-      for k in dataset[0].keys():
-        if k != 'beds':
-          print(dataset[0][k])
-      print('\n')
-    return shows_parameters(dataset[1:])
+def shows_parameters(dataset, i=0):
+    if i == len(dataset):
+        return False
+
+    if dataset[i]['beds'] > 2 or dataset[0]['price'] > 100:
+        print(dataset[i]['room_type'], '\n', dataset[i]['price'], '\n', dataset[i]['weekly_price'], sep='')
+    shows_parameters(dataset, i + 1)
 
 shows_parameters(dataset)
