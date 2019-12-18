@@ -13,7 +13,6 @@ def recursion(dataset):
             condition += 1
         elif key == 'total_episodes_non_lupa' and value > 1000:
             condition += 1
-        else: continue
     if condition == 2:
         print(provider_ids[0])
         print(dataset[provider_ids[0]].get('zip_code'))
@@ -23,4 +22,4 @@ def recursion(dataset):
     recursion(dataset)
 
 
-recursion(dataset)
+recursion(dataset.copy())
