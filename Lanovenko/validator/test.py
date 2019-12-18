@@ -1,4 +1,4 @@
-from validator import lab
+from validator import lib
 
 host_id = input("Host ID: ")
 while not lab.host_id_validator(host_id):
