@@ -1,26 +1,29 @@
 dataset = {
-    '1':{
-        'host_url': 'wewed',
-        'host_since': 'edwde',
-        'country': 'edded',
-        'zipcode': 'ewfwfe',
-    }
-    '2':{
-        'host_url': 'dfgvwef',
-        'host_since': 'gdefvg',
-        'country': 'fgvdef',
-        'zipcode': 'eewdf',
-    }
-    '3':{
-        'host_url': 'wewd',
-        'host_since': 'edegbde',
-        'country': 'edfgvdscv',
-        'zipcode': 'ewfwefw',
-    }
-    '4':{
-        'host_url': 'wevgdsf',
-        'host_since': 'easfsd',
-        'country': 'asdf',
-        'zipcode': 'eqwerrttyy',
+    '241032':{
+        'host_url': 'https://www.airbnb.com/users/show/956883',
+        'host_since': '2011-08-11',
+        'country': 'United States',
+        'zipcode': '98119',
+    },
+    '953595':{
+        'host_url': 'https://www.airbnb.com/users/show/5177328',
+        'host_since': '2013-02-21',
+        'country': 'United States',
+        'zipcode': '98119',
+    },
+    '3308979':{
+        'host_url': 'https://www.airbnb.com/users/show/16708587',
+        'host_since': '2014-06-12',
+        'country': 'United States',
+        'zipcode': '98119',
+    },
+    '7421966':{
+        'host_url': 'https://www.airbnb.com/users/show/9851441',
+        'host_since': '2013-11-06',
+        'country': 'United States',
+        'zipcode': '98119',
     }
 }
+
+def return_dataset ():
+	return dataset
