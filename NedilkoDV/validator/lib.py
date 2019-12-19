@@ -20,5 +20,5 @@ def key_validator(key):
     return key
 def brand_validator(brand):
     while not re.match('^[A-z]*$', brand):
-            brand=input('Введіть brand у правильному форматі')
+            brand=input('Введіть фірму у правильному форматі')
     return brand
