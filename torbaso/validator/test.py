@@ -1,5 +1,5 @@
 import importlib
-from validator.lib import *
+from torbaso.validator.lib import *
 country =input('Enter country name')
 name = input('Enter name of accomodation')
 price = float(input('Enter price of 1 night in this offer'))
