@@ -5,7 +5,7 @@ dataset = {
         "city": "BROOKLYN",
         "zip_code": "77036",
         "percent_of_beneficiaries_with_copd": "69",
-        "percent_of_beneficiaries_with_hypertension": "None"
+        "percent_of_beneficiaries_with_hypertension": None
     },
     "58217": {
         "agency_name": "BRADBOURNE HEALTHCARE, INC",
@@ -21,6 +21,6 @@ dataset = {
         "city": "BREA",
         "zip_code": "77469" ,
         "percent_of_beneficiaries_with_copd": "32",
-        "percent_of_beneficiaries_with_hypertension": "None"
+        "percent_of_beneficiaries_with_hypertension": None
     }
 }

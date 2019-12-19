@@ -1,5 +1,5 @@
 import re
-def id_validator():
+def id_validator(id):
    return bool(re.match('^\d{6}$',id))
 
 
