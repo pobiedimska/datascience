@@ -1,7 +1,7 @@
 from shcherbachenkoma.validator.lib import provider_id_validator, agency_name_validator, average_hcc_score_validator, 
 percent_of_beneficiaries_with_asthma_validator
 
-provider_id_validator(re_provider_id)
-agency_name_validator(re_agency_name)
-average_hcc_score_validator(re_average_hcc_scor)
-percent_of_beneficiaries_with_asthma_validator(re_percent_of_beneficiaries_with_asthma)
+provider_id_validator('111111')
+agency_name_validator("UNITED AMERICA HOME HEALTH SERVICES, INC.")
+average_hcc_score_validator('2.24')
+percent_of_beneficiaries_with_asthma_validator('19')
