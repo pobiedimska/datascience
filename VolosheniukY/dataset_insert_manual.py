@@ -1,11 +1,17 @@
 from dataset_structure import data_set
 
-data_set.update({
-    '3849294': {
-        "name": "Tiny Garden cabin on Queen Anne",
-        "city": "Seattle",
-        "country": "United States",
-        "country_code": "US"
-    }
-})
+
+def add_data(name, city, country, country_code):
+    data_set.update({
+        name: {
+            "city": city,
+            "country": country,
+            "country_code": country_code
+        }
+    })
+    return data_set
+
+
+data_set = add_data('Royal Apartment of Jordan 3', 'Seattle', 'United States', 'US')
+print(data_set)
 
