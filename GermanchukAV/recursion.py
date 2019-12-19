@@ -20,9 +20,9 @@ def recursion(dataset):
         print(dataset[keys[0]].get('bed_type'))
 
     del dataset[keys[0]]
-    print(dataset)
     recursion(dataset)
-recursion(dataset)
+copy_of_dataset = dataset.copy()
+recursion(copy_of_dataset)
 
 
 
