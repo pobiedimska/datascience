@@ -2,7 +2,7 @@ from re import compile
 
 int_pattern = compile( r'^\d+$' )
 
-money_pattern = compile( r'^\$\d+.\d\d$' )
+money_pattern = compile( r'^\$\d+\.\d\d$' )
 
 calendar_patterns = [ r'yesterday', r'tomorrow', r'^\d+| (weeks|months|days) ago$', r'^a (day|week|month) ago', r'an hour ago' ]
 calendar_patterns = [ compile( pattern ) for pattern in calendar_patterns ]

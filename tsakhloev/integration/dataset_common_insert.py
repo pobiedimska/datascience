@@ -1,5 +1,11 @@
-from dataset_structure import dataset
+import sys
+sys.path.append('../../shchehelskyiho/validator')
+from lib import *
+
+sys.path.append('../')
 from validator.lib import *
+
+from dataset_structure_common import dataset
 
 def dataset_insert_manual( dataset, ID, data ):
 
@@ -8,7 +14,10 @@ def dataset_insert_manual( dataset, ID, data ):
     validators = {
 
         'cleaning_fee': cleaning_fee_validator,
-        'extra_people': extra_people_validator
+        'extra_people': extra_people_validator,
+        'space': space_validator,
+        'street': street_validator,
+        'zipcode': zipcode_validator
 
     }
 
