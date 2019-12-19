@@ -1,27 +1,28 @@
-data_set={
-    '1':{
-        "host-id":956883,
-        "bed-type":"Real Bed",
-        "price":85.00,
-        "extra-people":5.00
-        },
-   '2':{
-        "host-id":5177328,
-        "bed-type":"Real Bed",
-        "price":150.00,
-        "extra-people":0.00
-        },
-    '3':{
-        "host-id":16708587,
-        "bed-type":"Real Bed",
-        "price":975.00,
-        "extra-people":25.00
+from dataset_structure import data_set
+from validator.lib import *
+
+new = {
+    str(len(data_set)+1):
+        {
+        "host-id": 123456789,
+        "bed-type": 'Real Bed',
+        "price": 100.00,
+        "extra-people": 5.00
         }
 }
 
-data_set[len(data_set)+1] = {
-    "host-id": {input("Enter host-id: ")},
-    "bed-type": {input("Enter type of bed: ")},
-    "price": {input("Enter price: ")},
-    "extra-people": {input("Enter sizes: ")}
-}
+def insert_info(dict):
+    data_set.update(dict)
+
+insert_info(new)
+print (data_set)
+
+"""
+def insrt(data_set):
+    data_set[len(data_set)+1] = {
+        "host-id": input("Enter host-id: "),
+        "bed-type": input("Enter type of bed: "),
+        "price": input("Enter price: "),
+        "extra-people": input("Enter sizes: ")
+    }
+"""
