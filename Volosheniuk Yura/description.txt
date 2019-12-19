@@ -1,4 +1,0 @@
-name - name of hotel
-city - city in which hotel is located
-country - country in which hotel is located
-country_code - short name of country
