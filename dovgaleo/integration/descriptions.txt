@@ -1,6 +1,0 @@
-provider_id - int; The 6-digit identification number for the home health agency on the claim.
-city - str; The city where the home health agency is located, as reported in the POS file.
-zip_code - int; The home health agency's zip code, as reported in the POS file.
-total_episodes_non_lupa - int; Total count of non-LUPA episodes provided by a specific home health agency
-percent_of_beneficiaries_with_ra_oa - int; Percent of beneficiaries meeting the CCW chronic condition algorithm for rheumatoid arthritis/osteoarthritis.
-percent_of_beneficiaries_with_stroke - int; Percent of beneficiaries meeting the CCW chronic condition algorithm for stroke.

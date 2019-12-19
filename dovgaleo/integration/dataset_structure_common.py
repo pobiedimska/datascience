@@ -19,26 +19,5 @@ dataset = {
         'total_episodes_non_lupa': 259,
         'percent_of_beneficiaries_with_ra_oa': 3,
         'percent_of_beneficiaries_with_stroke': 53
-    },
-    747583: {
-        'city': 'IRWINDALE',
-        'zip_code': 77407,
-        'total_episodes_non_lupa': 199,
-        'percent_of_beneficiaries_with_ra_oa': 0,
-        'percent_of_beneficiaries_with_stroke': 5
-    },
-    453165: {
-        'city': 'SAN JOSE',
-        'zip_code': 77074,
-        'total_episodes_non_lupa': 1111,
-        'percent_of_beneficiaries_with_ra_oa': 73,
-        'percent_of_beneficiaries_with_stroke': 4
-    },
-    679380: {
-        'city': 'HOGWARTS',
-        'zip_code': 75116,
-        'total_episodes_non_lupa': 1917,
-        'percent_of_beneficiaries_with_ra_oa': 71,
-        'percent_of_beneficiaries_with_stroke': 21
     }
 }
