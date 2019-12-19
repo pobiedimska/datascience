@@ -33,4 +33,4 @@ def sec_wires_count(dataset,year):
                 total_sum += attributes['wire_2nd']
     return total_sum
 
-print('Количество проводов в 2018г:',sec_wires_count(city_info,my_date))
+print('Количество проводов в указанном году:',sec_wires_count(city_info,my_date))
