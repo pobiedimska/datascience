@@ -5,7 +5,7 @@ def name_validator(name):
     else: return False
 
 def id_validator(id):
-    if re.match('^{\d*,\w*,(\d*\w*)*,(\w*\d*)*}*$', id):
+    if re.match('^\w*\d*$', id):
         return True
     else: return False
 
