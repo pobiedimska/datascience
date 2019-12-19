@@ -1,3 +1,5 @@
+from dataset_structure import dataset
+
 def recursion( dataset ):
 
 	if not dataset:
@@ -12,6 +14,7 @@ def recursion( dataset ):
 	if ( extraPeople != None and float(extraPeople[1:]) > 100 ) or ( cleaningFee != None and float(cleaningFee[1:]) ) > 30:
 		print( f'host-id: {key}, extra-people: {extraPeople}, cleaning-fee: {cleaningFee}' )
 
-	del dataset[key]
+	dataset_copy = dataset.copy()
+	del dataset_copy[key]
 
-	recursion( dataset )
+	recursion( dataset_copy )

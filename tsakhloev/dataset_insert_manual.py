@@ -1,11 +1,20 @@
 from dataset_structure import dataset
+from validator.lib import *
 
-dataset[1523502] = {
-	
-	'cleaning_fee': '$45.00',
-	'calendar_updated': '2 hours ago',
-	'extra_people': '$5.00'
+def dataset_insert_manual( host_id, cleaning_fee, calendar_updated, extra_people ):
 
-}
+    validators = [ host_id_validator(host_id), cleaning_fee_validator(cleaning_fee), calendar_updated_validator(calendar_updated), extra_people_validator(extra_people) ]
 
-print(dataset)
+    if all( validators ):
+
+        dataset[int(host_id)] = {
+        	
+        	'cleaning_fee': cleaning_fee,
+        	'calendar_updated': calendar_updated,
+        	'extra_people': extra_people
+
+        }
+
+        return True
+
+    return False
