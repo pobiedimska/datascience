@@ -1,7 +1,7 @@
 from budzinskiyeo.validator.lib import flavors_validator, count_validator, categories_validator, brand_validator
 
 flavor_key = "f158c2c9-ccde-4f5f-8ee4-bb070847f1b5"  # "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
-count_key = "000000007"  # "123456789"
+count_value = "77"  # "123"
 categories_value = ["Shoes", "Women"]  # ["element1", "element2"]
 brand_value = ["Nora"]  # ["element1"]
 
@@ -12,10 +12,10 @@ else:
     print("Invalid flavor id, try again")
 
 
-if count_validator(count_key):
-    print("Count id correct")
+if count_validator(count_value):
+    print("Count value correct")
 else:
-    print("invalid count id, try again")
+    print("invalid count value, try again")
 
 
 if categories_validator(categories_value):

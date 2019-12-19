@@ -10,7 +10,7 @@ def dataset_insert(data, id_value, value_list, key_list=None):
 
 
 main_id = "37d139b6-471f-4e7d-a0b3-0c25acde52f6"
-values = ["010000001", ["Shoes", "Women's Shoes"], ["Novice"]]
+values = [101, ["Shoes", "Women's Shoes"], ["Novice"]]
 
 dataset_insert(dataset, main_id, values)
 print(dataset)
