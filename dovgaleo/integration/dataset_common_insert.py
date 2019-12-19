@@ -1,32 +1,34 @@
 from dovgaleo.integration.dataset_structure_common import dataset
 from dovgaleo.integration import validator
-import re
 
 
 def insert_common_data(dataset):
     if not isinstance(dataset, dict):
-        print(f'Your dataset is not valid!')
+        print('Your dataset is not valid')
         return -1
 
-    # считается, что файл существует, заполнен верно и находится там же, где и этот :)))
-    with open('descriptions.txt', 'r') as f:
-        descr = f.read().split(sep='\n')
-    pattern = re.compile('(\w+)\s-\s(\w+);\s(.+)')
-    print(descr)
-    data, provider_id = {}, 0
-    for i in range(len(descr)):
-        option = re.match(pattern, descr[i])
-        key = option.group(1)
-        print(f'\n{key} is {option.group(2)}. Description:\n{option.group(3)}')
+    keys = ['provider_id', 'city', 'zip_code', 'total_episodes_non_lupa',
+            'percent_of_beneficiaries_with_ra_oa', 'percent_of_beneficiaries_with_stroke']
+
+    provider_id = 0
+    for i in range(6):
         while True:
-            value = eval(f"validator.{key}_validator(input(f'{key} = '))")
-            if value is not None: break
+            value, check = input(f'{keys[i]} = '), 0
+
+            if keys[i] == keys[0]: check = validator.provider_id_validator(value)
+            if keys[i] == keys[1]: check = validator.city_validator(value)
+            if keys[i] == keys[2]: check = validator.zip_code_validator(value)
+            if keys[i] == keys[3]: check = validator.total_episodes_non_lupa_validator(value)
+            if keys[i] == keys[4]: check = validator.percent_of_beneficiaries_with_ra_oa_validator(value)
+            if keys[i] == keys[5]: check = validator.percent_of_beneficiaries_with_stroke_validator(value)
+
+            if check is True: break
+
         if i == 0:
-            data[value] = {}
-            provider_id = list(data.keys())[0]
-        data[provider_id][key] = value
-    dataset.update(data)
-    return dataset
+            provider_id = value
+            dataset[provider_id] = {}
+        else:
+            dataset[provider_id][keys[i]] = value
 
 
 insert_common_data(dataset)
