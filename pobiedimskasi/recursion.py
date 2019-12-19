@@ -1,4 +1,3 @@
-from pobiedimskasi.dataset_structure import dataset
 
 def condition_depresion_more_than_50(key, value):
     c1 = (key == 'percent_of_beneficiaries_with_depression')
