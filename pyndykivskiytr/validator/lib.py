@@ -5,21 +5,22 @@ pattern_city=re.compile(r"[a-zA-Z -]+$")
 pattern_total_lupa_episodes=re.compile(r"\d+$")
 pattern_average_age=re.compile(r"\d+$")
 
-def provider_id_validator(pattern_provider_id, prompt):
-	number=(validator(pattern_provider_id, prompt))
-	while int(number)<=0 or len(number)!=6:
-		print("Provider ID should consist of 6 digits !")
-		number=(validator(pattern_provider_id, prompt))
-	return int(number)
-
 def validator(pattern, prompt):
 	data=input(prompt)	
 	while not bool (pattern.match(data)):
 		data=input(prompt)
 	return data
 
+def provider_id_validator(pattern_provider_id, prompt):
+	number=validator(pattern_provider_id, prompt)
+	while int(number)<=0 or len(number)!=6:
+		print("Provider ID should consist of 6 digits !")
+		number=validator(pattern_provider_id, prompt)
+	return int(number)
+
+
 def city_validator(pattern_city, prompt):
-	name=(validator(pattern_city, prompt))
+	name=validator(pattern_city, prompt)
 	return name		
 
 def total_lupa_episodes_validator(pattern_total_lupa_episodes, prompt):

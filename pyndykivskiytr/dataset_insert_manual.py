@@ -1,7 +1,6 @@
 from dataset_structure import dataset
-import sys
-sys.path.insert(1, 'validator/')
-from lib import *
+
+from validator.lib import *
 
 def insert(dataset):
 
