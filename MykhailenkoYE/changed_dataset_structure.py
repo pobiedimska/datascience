@@ -26,3 +26,13 @@ city_info ={
 
     }
 }
+for items in city_info:
+    # print(city_info[items])
+    for items2 in city_info[items]:
+        if city_info[items][items2] =="Brooklyn":
+            # print(city_info[items])
+            # for element in city_info[items][items2]:
+                print(items2)
+    # if city_info[items]["boroname"]
+    # == "Brooklyn":
+
