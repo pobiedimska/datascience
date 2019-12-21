@@ -1,7 +1,4 @@
 from dataset_structure_common import dataset
-import sys
-
-sys.path.append('../')
 from validator.lib import *
 
 
