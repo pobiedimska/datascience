@@ -4,10 +4,11 @@ def recursion(dataset, i=0):
         return
 
     host_id = list(dataset.keys())[i]
-    country = list(dataset[host_id].keys())[0]
+    country = dataset[host_id]['country']
+    beds = dataset[host_id]['beds']
+    number_of_reviews = dataset[host_id]['number_of_reviews']
 
-    if list(dataset[host_id][country].keys())[0] > 1 and list(dataset[host_id][country].values())[0] > 10:
-        print(list(dataset[host_id][country].keys())[0])
-        print(list(dataset[host_id][country].values())[0])
+    if number_of_reviews > 10 or beds > 1:
+        print(country, host_id, beds)
 
     recursion(dataset, i+1)

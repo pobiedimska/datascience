@@ -9,5 +9,5 @@ def country_validator(country):
 def beds_validator(beds):
     return bool(re.match(r'^\d+$', beds))
 
-def number_reviews_validator(number_reviews):
-    return bool(re.match(r'^\d+$', number_reviews))
+def number_of_reviews_validator(number_of_reviews):
+    return bool(re.match(r'^\d+$', number_of_reviews))
