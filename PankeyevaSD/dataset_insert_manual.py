@@ -7,6 +7,9 @@ def insert_data(provider_id,zip_code,percent_of_beneficiaries_with_copd = None,p
         "percent_of_beneficiaries_with_hypertension" : percent_of_beneficiaries_with_hypertension
         }
 
-
-insert_data( 123456,12345, 77, 36 )
+provider="123456"
+zip_code="23456"
+percent_of_beneficiaries_with_copd="87"
+percent_of_beneficiaries_with_hypertension="34"
+insert_data(provider, zip_code, percent_of_beneficiaries_with_copd, percent_of_beneficiaries_with_hypertension)
 print(dataset)
