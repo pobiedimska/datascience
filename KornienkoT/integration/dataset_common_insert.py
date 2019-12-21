@@ -110,6 +110,6 @@ def dataset_common_insert(dataset, host_id, room_type, bedrooms, country, price,
                 }})
 
 
-dataset_common_insert(dataset, "53050", "Entire home/apt", "1", "United States", "$129.00", "5", "$903.00")
+dataset_common_insert (dataset, "53050", "Entire home/apt", "1", "United States", "$129.00", "5", "$903.00")
 
 print(dataset)
